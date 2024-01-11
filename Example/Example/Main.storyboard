@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WVO-PR-pQw">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Annotation View Controller-->
+        <scene sceneID="CXu-mM-Qsj">
+            <objects>
+                <viewController storyboardIdentifier="Annotation" id="0kt-Pv-v3w" customClass="AnnotationViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vKX-11-60K">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Multiple spotlight" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v9J-2l-lu6">
+                                <rect key="frame" x="175" y="75" width="133" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appear spotlight on view." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xn5-o0-L8v">
+                                <rect key="frame" x="97" y="121" width="198.5" height="22.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Support rounded rect." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4ze-7n-AJx">
+                                <rect key="frame" x="52" y="163" width="170.5" height="22.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCg-Tr-ipa">
+                                <rect key="frame" x="116" y="387" width="161" height="78"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="60"/>
+                                <color key="textColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move spotlight." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yGm-iC-lTh">
+                                <rect key="frame" x="257" y="200" width="119.5" height="22.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="syq-G2-PS2"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dCg-Tr-ipa" firstAttribute="centerX" secondItem="vKX-11-60K" secondAttribute="centerX" id="1V8-Ol-7Ww"/>
+                            <constraint firstItem="dCg-Tr-ipa" firstAttribute="centerY" secondItem="vKX-11-60K" secondAttribute="centerY" id="eRb-Tp-eg8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="annotationViews" destination="v9J-2l-lu6" collectionClass="NSMutableArray" id="nse-dB-IJL"/>
+                        <outletCollection property="annotationViews" destination="xn5-o0-L8v" collectionClass="NSMutableArray" id="RwP-EO-qMC"/>
+                        <outletCollection property="annotationViews" destination="yGm-iC-lTh" collectionClass="NSMutableArray" id="jZ4-U5-463"/>
+                        <outletCollection property="annotationViews" destination="4ze-7n-AJx" collectionClass="NSMutableArray" id="APG-Nx-vuT"/>
+                        <outletCollection property="annotationViews" destination="dCg-Tr-ipa" collectionClass="NSMutableArray" id="wTP-ho-LYm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cLo-Ib-h3N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1854" y="542"/>
+        </scene>
+        <!--Example-->
+        <scene sceneID="Pfd-20-1AI">
+            <objects>
+                <viewController id="1lE-d5-cOM" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NBk-lO-wZx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="example" translatesAutoresizingMaskIntoConstraints="NO" id="fy7-tU-6HY">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsW-0f-wm7">
+                                <rect key="frame" x="288" y="772" width="89" height="30"/>
+                                <state key="normal" title="Start Tutorial">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="1lE-d5-cOM" eventType="touchUpInside" id="WTh-NW-eMy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KG3-Hy-S0g"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KG3-Hy-S0g" firstAttribute="bottom" secondItem="bsW-0f-wm7" secondAttribute="bottom" constant="16" id="7gH-y4-7m5"/>
+                            <constraint firstAttribute="bottom" secondItem="fy7-tU-6HY" secondAttribute="bottom" id="AA6-xu-5wH"/>
+                            <constraint firstItem="KG3-Hy-S0g" firstAttribute="trailing" secondItem="bsW-0f-wm7" secondAttribute="trailing" constant="16" id="ClH-9I-9Uu"/>
+                            <constraint firstItem="KG3-Hy-S0g" firstAttribute="trailing" secondItem="fy7-tU-6HY" secondAttribute="trailing" id="DPa-3w-urt"/>
+                            <constraint firstItem="bsW-0f-wm7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KG3-Hy-S0g" secondAttribute="leading" symbolic="YES" id="g2Z-pj-FBU"/>
+                            <constraint firstItem="fy7-tU-6HY" firstAttribute="top" secondItem="NBk-lO-wZx" secondAttribute="top" id="swR-16-Mk1"/>
+                            <constraint firstItem="fy7-tU-6HY" firstAttribute="leading" secondItem="KG3-Hy-S0g" secondAttribute="leading" id="tcj-jc-OGe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Example" id="Yml-RU-bDN">
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="action" id="xen-Sz-ywc">
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </barButtonItem>
+                            <barButtonItem systemItem="add" id="5yv-Hh-Krw">
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ceH-C1-Bwm" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="990" y="542"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BrN-O2-plI">
+            <objects>
+                <navigationController id="WVO-PR-pQw" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iHV-nH-MC0">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.19433026219999999" blue="0.59937405870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1lE-d5-cOM" kind="relationship" relationship="rootViewController" id="pF4-PS-Bb5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uoR-kp-xpi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="177" y="542"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="example" width="469.5" height="833.5"/>
+    </resources>
+</document>
